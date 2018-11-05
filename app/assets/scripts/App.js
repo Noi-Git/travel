@@ -64,6 +64,8 @@
 // start using modules
 var Person = require('./modules/Person')
 
+alert("This is an automatic refresh!")
+
 var john = new Person("John Doe", "blue")
 john.greet()
 
