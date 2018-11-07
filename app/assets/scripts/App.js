@@ -62,12 +62,41 @@
 
 
 // start using modules
-var Person = require('./modules/Person')
+// var Person = require('./modules/Person')
 
-alert("This is an automatic refresh!")
+// alert("This is an automatic refresh!")
 
-var john = new Person("John Doe", "blue")
-john.greet()
+// var john = new Person("John Doe", "blue")
+// john.greet()
 
-var jane = new Person("Jane Smith", "green")
-jane.greet()
+// var jane = new Person("Jane Smith", "green")
+// jane.greet()
+
+
+//Extends
+// var $ = require('jquery')
+// //var Person = require('./modules/Person')
+
+// //use Javascript ES6 to import modules
+// import Person from './modules/Person'
+
+// class Adult extends Person {
+//     payTaxes() {
+//         console.log(this.name + " now owns $0 in taxes.")
+//     }
+// }
+
+// alert("This is an automatic refresh!")
+
+// var john = new Person("John Doe", "blue")
+// john.greet()
+
+// var jane = new Adult("Jane Smith", "orange")
+// jane.greet()
+// jane.payTaxes()
+
+/* ====== Start MobileMenu.js ====== */
+
+import MobileMenu from './modules/MobileMenu'
+
+var mobileMenu = new MobileMenu()
