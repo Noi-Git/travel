@@ -95,7 +95,7 @@
     } 
 
 /* Begin Equal Height Roles */
-    .flexbox &--equal-height-at-medium {
+    &--equal-height-at-medium {
         @mixin atMedium {
             display: flex;
         }
@@ -106,7 +106,7 @@
         }
     }
 
-    .flexbox &--equal-height-at-large {
+    &--equal-height-at-large {
         @mixin atLarge {
             display: flex;
         }
